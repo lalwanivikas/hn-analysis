@@ -1,0 +1,176 @@
+/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+
+/*
+**************
+*** Main *****
+*** Style ****
+**************
+*/
+
+body {
+	font-family: 'Open Sans', sans-serif;
+	width: 900px;
+	margin: 0 auto;
+	font-weight: 300;
+}
+
+h1 {
+	text-align: center;
+	font-family: 'Open Sans', sans-serif; 
+	margin-top: 50px;
+	margin-bottom: 25px;
+	font-size: 50px;
+	font-weight: 300;
+}
+
+h2 {
+	text-align: center;
+	font-family: 'Open Sans', sans-serif; 
+	margin-top: 20px;
+	margin-bottom: 20px;
+	font-size: 22px;
+	font-weight: 300;
+}
+
+.inputData {
+	background: #f8f8f8;
+	padding: 25px;
+	border-top: 1px solid #bbb;
+	border-bottom: 1px solid #bbb;
+}
+
+.description {
+	display: inline-block;
+	margin: 7px;
+}
+
+.description input {   
+	border-style: none;
+	border: 1px solid #aaa;
+	width: 350px;
+	height: 30px;
+	padding-left: 10px;
+	outline: none;
+	font-size: 15px;
+	font-weight: 300;
+}
+
+.description input:focus {
+	border: 1px solid #000;
+}
+
+::-webkit-input-placeholder {
+   font-weight: 300;
+   font-family: 'Open Sans', sans-serif;
+}
+
+:-moz-placeholder { /* Firefox 18- */
+   font-weight: 300;
+   font-family: 'Open Sans', sans-serif;  
+}
+
+::-moz-placeholder {  /* Firefox 19+ */
+   font-weight: 300;
+   font-family: 'Open Sans', sans-serif;  
+}
+
+#numberOfStories,
+#numberOfComments {
+	font-size: 18px;
+}
+
+#preChart {
+	display: none;
+}
+
+#preChart img {
+	margin-left: 400px;
+}
+
+#preChart p{
+	margin-top: 50px;
+	text-align: center;
+	font-size: 40px;
+	line-height: 1.5em;
+	color: #ccc;
+	font-weight: 300;
+}
+
+#chartDiv {
+	display: none;
+}
+
+canvas {
+	margin: 20px 0;
+}
+
+#legendDiv ul {
+	margin-top: 10px;
+	text-align: center;
+}
+
+#legendDiv li{
+	display: inline;
+}
+
+#legendDiv li span {
+	display: inline-block;
+	height: 25px;
+	width: 25px;
+	border-radius: 50%;
+	vertical-align: middle;
+	margin-left: 15px;
+	margin-right: 5px;
+}
+
+.number {
+	font-weight: 700;
+	color: #22A7F0;
+}
